@@ -4,7 +4,7 @@ from utils.MysqlUtil import Mysql
 import json
 import re
 from utils.LogUtil import my_log
-from utils.AssertUtil import TestAssertAPI
+from utils.AssertUtil import AssertUtil
 from utils.EmailUtil import SendEmail
 
 p_data = '\${(.*)}\$'
@@ -31,7 +31,7 @@ def assert_db_data(db_name, result, db_verify):
     db_res = sql.fetchone(db_verify)
     log.info("数据库整体查询结果:%s" % db_res)
     db_verify_data = list(dict(db_res).keys())
-    assert_util = TestAssertAPI()
+    assert_util = AssertUtil()
 
     # 根据key获取数据库结果
     for line in db_verify_data:

@@ -12,7 +12,7 @@ import json
 import pytest
 from utils.LogUtil import my_log
 from common import Base
-from utils.AssertUtil import TestAssertAPI
+from utils.AssertUtil import AssertUtil
 from utils.MysqlUtil import Mysql
 
 # 初始化测试用例文件
@@ -152,7 +152,7 @@ class TestExcelCase:
 
         allure.dynamic.description(desc)
 
-        assert_util = TestAssertAPI()
+        assert_util = AssertUtil()
         # 断言结果
         assert_util.assert_code(int(res["code"]), int(status_code))
         assert_util.asser_in_body(str(res["body"]),str(except_result))

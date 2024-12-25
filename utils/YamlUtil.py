@@ -1,6 +1,5 @@
 import os
 import yaml
-from more_itertools.more import raise_
 
 class YamlReader:
     # 初始化文件是否存在

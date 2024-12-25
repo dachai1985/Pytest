@@ -1,5 +1,4 @@
 import pymysql
-from websockets.asyncio.client import connect
 from  utils.LogUtil import my_log
 
 class Mysql:

@@ -2,7 +2,7 @@ import json
 import pytest
 from utils.RequestUtil import Request
 from config.Conf import ConfigYaml
-from utils.AssertUtil import TestAssertAPI
+from utils.AssertUtil import AssertUtil
 from common.Base import init_db
 from utils.LogUtil import my_log
 
@@ -33,12 +33,12 @@ def test_login(email, passwd):
         print(f"Error case detected: {body['message']}")
     else:
         # login成功响应
-        TestAssertAPI().assert_code(code, 200)
+        AssertUtil().assert_code(code, 200)
         # 传递字典，而不是先转换为 JSON 字符串
         # excepted_body = {'id': '001626057986549d93a93ec19594aa7b50fad2d779ca711000', 'email': 'chai@excample.com'}
         excepted_body = '"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com"'
 
-        TestAssertAPI().asser_in_body(body, excepted_body)
+        AssertUtil().asser_in_body(body, excepted_body)
 
         # 断言数据库中是否有该用户
         conn = init_db("db_awesome")
@@ -62,7 +62,7 @@ def test_get_blogs():
     print ("Get blogs result==========", result)
 
     code = result["code"]
-    TestAssertAPI().assert_code(code,200)
+    AssertUtil().assert_code(code,200)
 
 if __name__=="__main__":
     pytest.main()

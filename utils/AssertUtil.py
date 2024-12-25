@@ -1,7 +1,7 @@
 from utils.LogUtil import my_log
 import json
 
-class TestAssertAPI:
+class AssertUtil:
     def __init__(self):
         self.log = my_log("TestAPI")
 
