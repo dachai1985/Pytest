@@ -1,6 +1,6 @@
-from Pytest_API.common import Base
-from Pytest_API.config import Conf
-import os
+# from common import Base
+# from config import Conf
+# import os
 
 # def pytest_sessionfinish(session, exitstatus):
 #     # 使用 getoption 方法获取 alluredir 的值
