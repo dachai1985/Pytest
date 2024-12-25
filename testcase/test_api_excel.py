@@ -5,7 +5,6 @@ from config import Conf
 from config.Conf import ConfigYaml
 import os
 from common.ExcelData import ExcelData
-from testcase.t_yaml.testlogin_yaml import data_list
 from utils.LogUtil import my_log
 from common import ExcelConfig
 from utils.RequestUtil import Request

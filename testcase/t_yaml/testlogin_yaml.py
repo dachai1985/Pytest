@@ -1,8 +1,8 @@
 import pytest
-from Pytest_API.config import Conf
-from Pytest_API.utils.YamlUtil import YamlReader
-from Pytest_API.config.Conf import ConfigYaml
-from Pytest_API.utils.RequestUtil import Request
+from config import Conf
+from utils.YamlUtil import YamlReader
+from config.Conf import ConfigYaml
+from utils.RequestUtil import Request
 import os
 
 # 获取测试用例内容list
