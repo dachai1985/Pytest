@@ -1,8 +1,8 @@
 import logging
 import datetime
 import os
-from Pytest_API.config import Conf
-from Pytest_API.config.Conf import ConfigYaml
+from config import Conf
+from config.Conf import ConfigYaml
 
 # 定义日志级别的映射
 log_l = {

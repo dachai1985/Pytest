@@ -1,5 +1,5 @@
 import os
-from Pytest_API.utils.YamlUtil import YamlReader
+from utils.YamlUtil import YamlReader
 # 获取项目基本目录
 # 当前项目的绝对路径
 current = os.path.abspath(__file__)

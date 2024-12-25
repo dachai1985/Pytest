@@ -1,10 +1,10 @@
 import json
 import pytest
-from Pytest_API.utils.RequestUtil import Request
-from Pytest_API.config.Conf import ConfigYaml
-from Pytest_API.utils.AssertUtil import TestAssertAPI
-from Pytest_API.common.Base import init_db
-from Pytest_API.utils.LogUtil import my_log
+from utils.RequestUtil import Request
+from config.Conf import ConfigYaml
+from utils.AssertUtil import TestAssertAPI
+from common.Base import init_db
+from utils.LogUtil import my_log
 
 data_list = [("chai@excample.com","daccf256f725ed4205357e24a877a00b77abce77"),
              ("chai@excample.com","999999")]

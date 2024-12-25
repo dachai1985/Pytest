@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
-from Pytest_API.config.Conf import ConfigYaml
+from config.Conf import ConfigYaml
 
 # 初始化邮件信息
 class SendEmail:

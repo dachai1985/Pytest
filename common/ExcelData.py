@@ -1,5 +1,5 @@
-from Pytest_API.utils.ExcelUtil import ExcelReader
-from Pytest_API.common.ExcelConfig import DataConfig
+from utils.ExcelUtil import ExcelReader
+from common.ExcelConfig import DataConfig
 
 class ExcelData:
     def __init__(self, test_case_file, sheet_name):

@@ -1,4 +1,4 @@
-from Pytest_API.utils.LogUtil import my_log
+from utils.LogUtil import my_log
 import json
 
 class TestAssertAPI:

@@ -1,5 +1,5 @@
 import yaml
-from pytest.utils.YamlUtil import YamlReader
+from utils.YamlUtil import YamlReader
 # 读取单个内容
 # with open("./data.yml", "r", encoding='utf-8') as f:
 #     r = yaml.safe_load(f)

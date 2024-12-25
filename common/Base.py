@@ -1,11 +1,11 @@
 import subprocess
-from Pytest_API.config.Conf import ConfigYaml
-from Pytest_API.utils.MysqlUtil import Mysql
+from config.Conf import ConfigYaml
+from utils.MysqlUtil import Mysql
 import json
 import re
-from Pytest_API.utils.LogUtil import my_log
-from Pytest_API.utils.AssertUtil import TestAssertAPI
-from Pytest_API.utils.EmailUtil import SendEmail
+from utils.LogUtil import my_log
+from utils.AssertUtil import TestAssertAPI
+from utils.EmailUtil import SendEmail
 
 p_data = '\${(.*)}\$'
 log = my_log()

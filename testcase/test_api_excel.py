@@ -1,21 +1,20 @@
 from idlelib.pyshell import restart_line
 
 import allure
-from scripts.regsetup import description
-from Pytest_API.config import Conf
-from Pytest_API.config.Conf import ConfigYaml
+from config import Conf
+from config.Conf import ConfigYaml
 import os
-from Pytest_API.common.ExcelData import ExcelData
-from Pytest_API.testcase.t_yaml.testlogin_yaml import data_list
-from Pytest_API.utils.LogUtil import my_log
-from Pytest_API.common import ExcelConfig
-from Pytest_API.utils.RequestUtil import Request
+from common.ExcelData import ExcelData
+from testcase.t_yaml.testlogin_yaml import data_list
+from utils.LogUtil import my_log
+from common import ExcelConfig
+from utils.RequestUtil import Request
 import json
 import pytest
-from Pytest_API.utils.LogUtil import my_log
-from Pytest_API.common import Base
-from Pytest_API.utils.AssertUtil import TestAssertAPI
-from Pytest_API.utils.MysqlUtil import Mysql
+from utils.LogUtil import my_log
+from common import Base
+from utils.AssertUtil import TestAssertAPI
+from utils.MysqlUtil import Mysql
 
 # 初始化测试用例文件
 # case_file = os.path.join("../data/", ConfigYaml().get_excel_file())

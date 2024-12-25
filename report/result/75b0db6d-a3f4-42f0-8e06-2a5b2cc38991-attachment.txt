@@ -1,6 +1,0 @@
-INFO     E:\learnPython\Pytest_API\utils\LogUtil.py:test_api_excel.py:91 执行测试用例：{'Case ID': 'login_2', 'Module': 'Login', 'Case Name': 'login Fail', 'Request URL': '/authenticate', 'Pre Condition': None, 'Request Type': 'Post', 'Params Type': 'json', 'Params Info': '{"email":"chai@excample.com","passwd":"dacc"}', 'Except Result': "'error': 'value:invalid', 'data': 'passwd', 'message': 'Invalid password.'", 'Actual Result': None, 'Comment': None, 'Run or Not': 'Y', 'Headers': None, 'Cookies': None, 'Status Code': 200, 'DB Verify': None}
-INFO     E:\learnPython\Pytest_API\utils\LogUtil.py:test_api_excel.py:47 请求url:http://127.0.0.1:9000/api/authenticate
-INFO     E:\learnPython\Pytest_API\utils\LogUtil.py:test_api_excel.py:48 请求参数:{'email': 'chai@excample.com', 'passwd': 'dacc'}
-INFO     E:\learnPython\Pytest_API\utils\LogUtil.py:test_api_excel.py:51 请求前的headers:None
-INFO     Request:RequestUtil.py:17 发送post请求
-INFO     E:\learnPython\Pytest_API\utils\LogUtil.py:test_api_excel.py:58 Response Result:{'code': 200, 'body': {'error': 'value:invalid', 'data': 'passwd', 'message': 'Invalid password.'}}

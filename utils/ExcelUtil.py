@@ -1,6 +1,6 @@
 import openpyxl
 import os
-from Pytest_API.utils.LogUtil import my_log
+from utils.LogUtil import my_log
 from typing import List, Dict
 
 # 参数化 pytest list

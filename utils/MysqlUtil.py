@@ -1,6 +1,6 @@
 import pymysql
 from websockets.asyncio.client import connect
-from  Pytest_API.utils.LogUtil import my_log
+from  utils.LogUtil import my_log
 
 class Mysql:
     # 连接数据库

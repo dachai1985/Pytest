@@ -1,6 +1,6 @@
 # 创建封装的request方法
 import requests
-from Pytest_API.utils.LogUtil import my_log
+from utils.LogUtil import my_log
 
 class Request:
     def __init__(self):
