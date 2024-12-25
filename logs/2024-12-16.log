@@ -1,0 +1,113 @@
+2024-12-16 09:45:13,547-E:\learnPython\Pytest_API\utils\LogUtil.py-DEBUG-this is a debug
+2024-12-16 09:45:22,694-Requests-INFO-����post����
+2024-12-16 09:46:31,780-E:\learnPython\Pytest_API\utils\LogUtil.py-DEBUG-this is a debug
+2024-12-16 09:46:47,622-Requests-INFO-发送post请求
+2024-12-16 11:26:11,568-Requests-INFO-发送post请求
+2024-12-16 11:26:57,358-Requests-INFO-发送post请求
+2024-12-16 13:38:27,317-Requests-INFO-发送post请求
+2024-12-16 13:38:27,340-Requests-INFO-发送get请求
+2024-12-16 13:53:31,706-Requests-INFO-发送post请求
+2024-12-16 13:53:31,715-Requests-INFO-发送get请求
+2024-12-16 13:56:05,841-Requests-INFO-发送post请求
+2024-12-16 13:56:05,851-Requests-INFO-发送get请求
+2024-12-16 13:57:49,848-Requests-INFO-发送post请求
+2024-12-16 13:57:49,858-Requests-INFO-发送get请求
+2024-12-16 14:34:35,259-Requests-INFO-发送post请求
+2024-12-16 14:34:35,276-Requests-INFO-发送get请求
+2024-12-16 14:35:29,193-Requests-INFO-发送post请求
+2024-12-16 14:35:29,202-Requests-INFO-发送get请求
+2024-12-16 14:35:29,209-TestAPI-ERROR-code error, code is 200, excepted_code is 201
+2024-12-16 14:40:13,415-Requests-INFO-发送post请求
+2024-12-16 14:40:13,423-TestAPI-ERROR-body is error, body is {"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com", "passwd": "******", "admin": 1, "name": "chai", "image": "http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120", "created_at": 1626057986.54903}, excepted_body is 'id': '001626057986549d93a93ec19594aa7b50fad2d779ca711000', 'email': 'chai@excample.com', 'passwd': '******', 'admin': 1, 'name': 'chai', 'image': 'http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120', 'created_at': 1626057986.54903
+2024-12-16 14:40:13,594-Requests-INFO-发送get请求
+2024-12-16 14:40:13,601-TestAPI-ERROR-code error, code is 200, excepted_code is 201
+2024-12-16 14:41:34,199-Requests-INFO-发送post请求
+2024-12-16 14:41:34,207-TestAPI-ERROR-body is error, body is {"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com", "passwd": "******", "admin": 1, "name": "chai", "image": "http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120", "created_at": 1626057986.54903}, excepted_body is 'id': '001626057986549d93a93ec19594aa7b50fad2d779ca711000', 'email': 'chai@excample.com', 'passwd': '******', 'admin': 1, 'name': 'chai', 'image': 'http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120', 'created_at': 1626057986.54903
+2024-12-16 14:41:34,384-Requests-INFO-发送get请求
+2024-12-16 14:43:03,383-Requests-INFO-发送post请求
+2024-12-16 14:43:03,391-TestAPI-ERROR-body is error, body is {"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com", "passwd": "******", "admin": 1, "name": "chai", "image": "http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120", "created_at": 1626057986.54903}, excepted_body is {'id': '001626057986549d93a93ec19594aa7b50fad2d779ca711000', 'email': 'chai@excample.com', 'passwd': '******', 'admin': 1, 'name': 'chai', 'image': 'http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120', 'created_at': 1626057986.54903}
+2024-12-16 14:43:03,566-Requests-INFO-发送get请求
+2024-12-16 15:42:09,522-Requests-INFO-发送post请求
+2024-12-16 15:42:09,530-TestAPI-ERROR-body is error, body is {"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com", "passwd": "******", "admin": 1, "name": "chai", "image": "http://www.gravatar.com/avatar/faeec58980ebfdbd1ed2d3238129b834?d=mm&s=120", "created_at": 1626057986.54903}, excepted_body is {"id": "001626057986549d93a93ec19594aa7b50fad2d779ca711000", "email": "chai@excample.com"}
+2024-12-16 15:42:09,710-Requests-INFO-发送get请求
+2024-12-16 15:49:30,345-Requests-INFO-发送post请求
+2024-12-16 15:49:30,353-TestAPI-ERROR-Error in body assertion: the JSON object must be str, bytes or bytearray, not dict
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 29, in asser_in_body
+    body_dict = json.loads(body)
+  File "C:\Users\win\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2024-12-16 15:49:30,537-Requests-INFO-发送get请求
+2024-12-16 15:53:43,948-Requests-INFO-发送post请求
+2024-12-16 15:53:43,957-Requests-INFO-发送get请求
+2024-12-16 15:54:02,538-Requests-INFO-发送post请求
+2024-12-16 15:54:02,548-Requests-INFO-发送get请求
+2024-12-16 15:54:47,466-Requests-INFO-发送post请求
+2024-12-16 15:54:47,475-Requests-INFO-发送get请求
+2024-12-16 15:55:57,353-Requests-INFO-发送post请求
+2024-12-16 15:55:57,362-Requests-INFO-发送get请求
+2024-12-16 15:59:05,377-Requests-INFO-发送post请求
+2024-12-16 15:59:05,386-Requests-INFO-发送get请求
+2024-12-16 15:59:37,747-Requests-INFO-发送post请求
+2024-12-16 15:59:37,756-Requests-INFO-发送get请求
+2024-12-16 16:03:19,813-Requests-INFO-发送post请求
+2024-12-16 16:03:19,820-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:03:19,996-Requests-INFO-发送get请求
+2024-12-16 16:11:11,994-Requests-INFO-发送get请求
+2024-12-16 16:11:37,616-Requests-INFO-发送post请求
+2024-12-16 16:11:37,625-Requests-INFO-发送get请求
+2024-12-16 16:12:02,316-Requests-INFO-发送post请求
+2024-12-16 16:12:02,323-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:12:02,494-Requests-INFO-发送get请求
+2024-12-16 16:12:25,253-Requests-INFO-发送post请求
+2024-12-16 16:12:25,262-Requests-INFO-发送get请求
+2024-12-16 16:12:34,788-Requests-INFO-发送post请求
+2024-12-16 16:12:34,795-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:12:34,971-Requests-INFO-发送get请求
+2024-12-16 16:13:43,666-Requests-INFO-发送post请求
+2024-12-16 16:13:43,675-Requests-INFO-发送get请求
+2024-12-16 16:15:29,019-Requests-INFO-发送get请求
+2024-12-16 16:15:55,849-Requests-INFO-发送post请求
+2024-12-16 16:15:55,856-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:15:56,036-Requests-INFO-发送get请求
+2024-12-16 16:20:19,198-Requests-INFO-发送post请求
+2024-12-16 16:20:19,425-Requests-INFO-发送post请求
+2024-12-16 16:20:19,471-Requests-INFO-发送post请求
+2024-12-16 16:20:19,514-Requests-INFO-发送post请求
+2024-12-16 16:20:19,561-Requests-INFO-发送get请求
+2024-12-16 16:27:51,197-Requests-INFO-发送post请求
+2024-12-16 16:27:51,206-Requests-INFO-发送post请求
+2024-12-16 16:27:51,211-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:27:51,386-Requests-INFO-发送get请求
+2024-12-16 16:34:55,847-Requests-INFO-发送post请求
+2024-12-16 16:34:55,864-Requests-INFO-发送post请求
+2024-12-16 16:34:55,870-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-16 16:34:56,047-Requests-INFO-发送get请求
+2024-12-16 16:35:19,041-Requests-INFO-发送post请求
+2024-12-16 16:35:19,219-Requests-INFO-发送post请求
+2024-12-16 16:35:19,231-Requests-INFO-发送get请求

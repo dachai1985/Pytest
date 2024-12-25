@@ -1,0 +1,50 @@
+# 键值对
+#email: "chai@excample.com"
+#passwd: "daccf256f725ed4205357e24a877a00b77abce77"
+
+# 列表 {"a","b',"c'}
+#- "a"
+#- "b"
+#- "c"
+
+# 字典嵌套字典
+#{person1:{"name":"xiaoming","age":"18"}
+#person2:{"name":"xiaohong","age":"20"}}
+#person1:
+#  name: xiaoming
+#  age: 18
+#person2:
+#  name: xiaohong
+#  age: 20
+
+# 字典嵌套列表
+#{person:["a","b","c"]}
+#person:
+#  - "a"
+#  - "b"
+#  - "c"
+
+# 列表嵌套列表
+# [["a","b","c"],["1","2","3"]]
+#-
+#  - "a"
+#  - "b"
+#  - "c"
+#-
+#  - "1"
+#  - "2"
+#  - "3"
+
+# 列表嵌套字典
+#[{"username1":"test1"}, {"username2":"test2", "password":"111"}]
+#- username1: "test1"
+#- username2: "test2"
+#  password: "111"
+
+# 读取多个文档
+---
+email: "chai@excample.com"
+passwd: "daccf256f725ed4205357e24a877a00b77abce77"
+---
+email: "chai@excample.com"
+passwd: "daccf256f725ed4205357e24a877a00b77abce77"

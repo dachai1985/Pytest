@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","3","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""
+"Testcase-description2","0","Testcase-title2","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""
+"","0","1","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""
+"Testcase-description1","0","Testcase-title1","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""
+"","0","2","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""
+"Testcase-description3","0","Testcase-title3","testcase.t_allure","Fri Dec 20 17:00:03 CST 2024","passed","Fri Dec 20 17:00:03 CST 2024","TestAllureDemo","allure_demo","",""

@@ -1,0 +1,6 @@
+2024-12-18 13:12:23,720-E:\learnPython\Pytest_API\utils\LogUtil.py-INFO-Checking for file at path: ../data/api tc.xlsx
+2024-12-18 13:13:38,916-E:\learnPython\Pytest_API\utils\LogUtil.py-INFO-Checking for file at path: ../data/api tc.xlsx
+2024-12-18 13:13:38,936-E:\learnPython\Pytest_API\utils\LogUtil.py-ERROR-Sheet not found: 'Worksheet Sheet8 does not exist.'
+2024-12-18 13:14:10,414-E:\learnPython\Pytest_API\utils\LogUtil.py-INFO-Checking for file at path: ../data/api tc.xlsx
+2024-12-18 13:17:20,517-E:\learnPython\Pytest_API\utils\LogUtil.py-INFO-Checking for file at path: ../data/api tc.xlsx
+2024-12-18 13:21:48,321-E:\learnPython\Pytest_API\utils\LogUtil.py-INFO-Checking for file at path: ../data/api tc.xlsx

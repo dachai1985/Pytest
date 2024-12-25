@@ -1,0 +1,67 @@
+2024-12-17 10:39:14,413-E:\learnPython\Pytest_API\utils\LogUtil.py-ERROR-(1146, "Table 'awesome.bolgs' doesn't exist")
+2024-12-17 13:39:34,551-Requests-INFO-发送post请求
+2024-12-17 13:39:36,923-Requests-INFO-发送post请求
+2024-12-17 13:48:16,920-Requests-INFO-发送post请求
+2024-12-17 13:48:19,278-Requests-INFO-发送post请求
+2024-12-17 13:48:58,191-Requests-INFO-发送post请求
+2024-12-17 13:48:58,214-Requests-INFO-发送post请求
+2024-12-17 13:48:58,219-TestAPI-ERROR-Error in body assertion: 
+Traceback (most recent call last):
+  File "E:\learnPython\Pytest_API\utils\AssertUtil.py", line 34, in asser_in_body
+    assert all(item in body_dict.items() for item in excepted_body_dict.items())
+AssertionError
+2024-12-17 13:48:58,414-Requests-INFO-发送get请求
+2024-12-17 14:06:52,249-Requests-INFO-发送post请求
+2024-12-17 14:06:52,281-Requests-INFO-发送post请求
+2024-12-17 14:12:26,697-Requests-INFO-发送post请求
+2024-12-17 14:12:26,925-Requests-INFO-发送post请求
+2024-12-17 14:12:26,934-Requests-INFO-发送get请求
+2024-12-17 14:17:19,447-Requests-INFO-发送post请求
+2024-12-17 14:17:19,664-Requests-INFO-发送post请求
+2024-12-17 14:26:28,520-Requests-INFO-发送post请求
+2024-12-17 14:26:28,721-Requests-INFO-发送post请求
+2024-12-17 14:34:06,917-Requests-INFO-发送post请求
+2024-12-17 14:34:06,936-Requests-INFO-发送post请求
+2024-12-17 14:42:10,364-Request-INFO-发送post请求
+2024-12-17 14:42:10,384-Request-INFO-发送post请求
+2024-12-17 14:42:10,393-Request-INFO-发送get请求
+2024-12-17 14:46:54,647-Request-INFO-发送post请求
+2024-12-17 14:46:54,875-Request-INFO-发送post请求
+2024-12-17 14:46:54,883-Request-INFO-发送get请求
+2024-12-17 14:52:27,207-Request-INFO-发送post请求
+2024-12-17 14:52:27,415-Request-INFO-发送post请求
+2024-12-17 14:58:58,802-Request-INFO-发送post请求
+2024-12-17 14:58:59,041-Request-INFO-发送post请求
+2024-12-17 15:02:35,201-Request-INFO-发送post请求
+2024-12-17 15:02:35,411-Request-INFO-发送post请求
+2024-12-17 15:02:35,420-Request-INFO-发送get请求
+2024-12-17 15:03:27,396-Request-INFO-发送post请求
+2024-12-17 15:03:27,606-Request-INFO-发送post请求
+2024-12-17 15:06:30,527-Request-INFO-发送post请求
+2024-12-17 15:06:30,758-Request-INFO-发送post请求
+2024-12-17 15:06:30,766-Request-INFO-发送get请求
+2024-12-17 15:09:48,392-E:\learnPython\Pytest_API\utils\LogUtil.py-ERROR-Error while connecting to MySQL: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2024-12-17 15:10:45,518-E:\learnPython\Pytest_API\utils\LogUtil.py-ERROR-Error while connecting to MySQL: (2003, "Can't connect to MySQL server on 'localhos' ([Errno 11001] getaddrinfo failed)")
+2024-12-17 15:11:22,034-Request-INFO-发送post请求
+2024-12-17 15:11:22,244-Request-INFO-发送post请求
+2024-12-17 15:13:09,093-Request-INFO-发送post请求
+2024-12-17 15:13:09,362-Request-INFO-发送post请求
+2024-12-17 15:13:09,372-Request-INFO-发送get请求
+2024-12-17 15:18:08,463-Request-INFO-发送post请求
+2024-12-17 15:18:08,729-Request-INFO-发送post请求
+2024-12-17 15:18:08,738-Request-INFO-发送get请求
+2024-12-17 15:19:23,702-Request-INFO-发送post请求
+2024-12-17 15:19:23,934-Request-INFO-发送post请求
+2024-12-17 15:24:46,129-Request-INFO-发送post请求
+2024-12-17 15:24:46,369-Request-INFO-发送post请求
+2024-12-17 15:26:38,906-Request-INFO-发送post请求
+2024-12-17 15:26:38,926-Request-INFO-发送post请求
+2024-12-17 15:26:38,935-Request-INFO-发送get请求
+2024-12-17 16:43:52,342-Request-INFO-发送post请求
+2024-12-17 16:43:52,369-Request-INFO-发送post请求
+2024-12-17 16:44:28,604-Request-INFO-发送post请求
+2024-12-17 16:44:28,815-Request-INFO-发送post请求
+2024-12-17 16:44:54,737-Request-INFO-发送post请求
+2024-12-17 16:44:54,751-Request-INFO-发送post请求
+2024-12-17 16:46:24,161-Request-INFO-发送post请求
+2024-12-17 16:46:24,172-Request-INFO-发送post请求
