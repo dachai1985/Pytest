@@ -60,5 +60,5 @@ if __name__ == '__main__':
     # data_dict_test()
     excel_reader = ExcelReader("../data/api tc.xlsx", "Sheet1")
     data_list = excel_reader.read_test_data()
-    print(data_list)
+    # print(data_list)
 

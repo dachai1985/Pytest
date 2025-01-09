@@ -45,7 +45,7 @@ current_time = datetime.datetime.now().strftime("%Y-%m-%d")
 log_extension = ConfigYaml().get_conf_log_extension()
 logfile = os.path.join(log_path, current_time + log_extension)
 loglevel = ConfigYaml().get_conf_log()
-print(logfile)
+# print(logfile)
 
 # 对外方法，初始log工具类，提供其他类使用
 def my_log(log_name = __file__):

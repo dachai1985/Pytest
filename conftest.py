@@ -1,6 +1,8 @@
 # from common import Base
 # from config import Conf
 # import os
+from testcase.test_api_excel import TestExcelCase
+import allure
 
 # def pytest_sessionfinish(session, exitstatus):
 #     # 使用 getoption 方法获取 alluredir 的值
